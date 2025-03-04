@@ -1,14 +1,14 @@
-- Go to 'Setting / Technical / Actions / Server Actions'
+- Go to 'Settings / Technical / Actions / Server Actions'
 - Create a new item
 
-![](../static/description/ir_actions_server_form.png)
+![Server action form](../static/description/ir_actions_server_form.png)
 
 - Set a name that will be used for the Contextual Action
 - Choose a model
-- Select 'Navigate' option in the field 'Action To Do'
+- Select 'Navigate' option in the field 'Type'
 - Then, select a field of this model. It can be a `one2many`,
   `many2many`, `many2one` field.
-- You can then optionally select another fields (#2) that belong to the
+- You can then optionally select another field (#2) that belongs to the
   previous selected field (#1) relation model
 - Once done, click on the 'Create Contextual Action' to generate a new
   'More options' button.

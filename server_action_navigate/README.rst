@@ -44,17 +44,17 @@ orders.
 Configuration
 =============
 
--  Go to 'Setting / Technical / Actions / Server Actions'
+-  Go to 'Settings / Technical / Actions / Server Actions'
 -  Create a new item
 
-|image1|
+|Server action form|
 
 -  Set a name that will be used for the Contextual Action
 -  Choose a model
--  Select 'Navigate' option in the field 'Action To Do'
+-  Select 'Navigate' option in the field 'Type'
 -  Then, select a field of this model. It can be a ``one2many``,
    ``many2many``, ``many2one`` field.
--  You can then optionally select another fields (#2) that belong to the
+-  You can then optionally select another field (#2) that belongs to the
    previous selected field (#1) relation model
 -  Once done, click on the 'Create Contextual Action' to generate a new
    'More options' button.
@@ -65,7 +65,7 @@ Configuration
 -  You can select an action that will be used to display the target
    field list.
 
-.. |image1| image:: https://raw.githubusercontent.com/OCA/server-backend/17.0/server_action_navigate/static/description/ir_actions_server_form.png
+.. |Server action form| image:: https://raw.githubusercontent.com/OCA/server-backend/17.0/server_action_navigate/static/description/ir_actions_server_form.png
 
 Usage
 =====
@@ -74,14 +74,14 @@ Usage
    navigation action.
 -  click on 'Action' Button
 
-|image1|
+|Users tree|
 
 -  then click on the name of the configured Action and see the results
 
-|image2|
+|Partner Tags tree|
 
-.. |image1| image:: https://raw.githubusercontent.com/OCA/server-backend/17.0/server_action_navigate/static/description/res_users_tree.png
-.. |image2| image:: https://raw.githubusercontent.com/OCA/server-backend/17.0/server_action_navigate/static/description/res_partner_category_tree.png
+.. |Users tree| image:: https://raw.githubusercontent.com/OCA/server-backend/17.0/server_action_navigate/static/description/res_users_tree.png
+.. |Partner Tags tree| image:: https://raw.githubusercontent.com/OCA/server-backend/17.0/server_action_navigate/static/description/res_partner_category_tree.png
 
 Bug Tracker
 ===========
@@ -106,6 +106,7 @@ Contributors
 
 -  Sylvain LE GAL (https://www.twitter.com/legalsylvain)
 -  Ashish Hirpara (https://ashish-hirpara.com)
+-  Simone Rubino
 
 Maintainers
 -----------
