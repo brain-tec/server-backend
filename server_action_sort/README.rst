@@ -113,6 +113,9 @@ Contributors
 ------------
 
 - Sylvain LE GAL (https://www.twitter.com/legalsylvain)
+- `Heliconia Solutions Pvt. Ltd. <https://www.heliconia.io>`__
+
+  - Bhavesh Heliconia
 
 Maintainers
 -----------
