@@ -42,16 +42,9 @@ class ResGroups(models.Model):
             for group in portal_groups:
                 field_name = name_boolean_group(group.id)
                 for field_node in arch.xpath(f"//field[@name='{field_name}']"):
-                    field_node.attrib["attrs"] = str(
-                        {
-                            "readonly": [
-                                (
-                                    user_type_field,
-                                    "not in",
-                                    (portal_group + internal_group).ids,
-                                )
-                            ],
-                        }
+                    field_node.attrib["readonly"] = (
+                        f"{user_type_field} not in "
+                        f"{(portal_group + internal_group).ids}"
                     )
                 node.addnext(
                     etree.Element(
@@ -59,13 +52,7 @@ class ResGroups(models.Model):
                         {
                             "name": field_name,
                             "on_change": "1",
-                            "attrs": str(
-                                {
-                                    "invisible": [
-                                        (user_type_field, "!=", portal_group.id),
-                                    ],
-                                }
-                            ),
+                            "invisible": f"{user_type_field} != {portal_group.id}",
                         },
                     )
                 )
