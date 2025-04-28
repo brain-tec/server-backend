@@ -17,20 +17,23 @@ Portal types
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fserver--backend-lightgray.png?logo=github
-    :target: https://github.com/OCA/server-backend/tree/16.0/base_portal_type
+    :target: https://github.com/OCA/server-backend/tree/18.0/base_portal_type
     :alt: OCA/server-backend
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/server-backend-16-0/server-backend-16-0-base_portal_type
+    :target: https://translation.odoo-community.org/projects/server-backend-18-0/server-backend-18-0-base_portal_type
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/server-backend&target_branch=16.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/server-backend&target_branch=18.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module allows administrator to configure groups for portal users, which is not possible with standard Odoo.
+This module allows administrator to configure groups for portal users,
+which is not possible with standard Odoo.
 
-That's useful for having different types of portal users (think differentiate vendors from customers) and leveraging Odoo's group mechanism for ie views instead having to cook up custom solutions.
+That's useful for having different types of portal users (think
+differentiate vendors from customers) and leveraging Odoo's group
+mechanism for ie views instead having to cook up custom solutions.
 
 .. IMPORTANT::
    This is an alpha version, the data model and design can change at any time without warning.
@@ -47,14 +50,15 @@ Usage
 
 To use this module, you need to:
 
-#. create a group of category ``base_portal_type.category_portal_type``
-#. observe the group shows up on a user form for users of type `Portal`
-#. now you can use this group in your frontend templates and code to make some features accessible to this group
+1. create a group of category ``base_portal_type.category_portal_type``
+2. observe the group shows up on a user form for users of type Portal
+3. now you can use this group in your frontend templates and code to
+   make some features accessible to this group
 
 Known issues / Roadmap
 ======================
 
-* allowing to chose portal groups in the portal wizard would be nice
+- allowing to chose portal groups in the portal wizard would be nice
 
 Bug Tracker
 ===========
@@ -62,7 +66,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/server-backend/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/server-backend/issues/new?body=module:%20base_portal_type%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/server-backend/issues/new?body=module:%20base_portal_type%0Aversion:%2018.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -70,17 +74,18 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * Hunki Enterprises BV
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* Holger Brunn <mail@hunki-enterprises.com> (https://hunki-enterprises.com)
+- Holger Brunn <mail@hunki-enterprises.com>
+  (https://hunki-enterprises.com)
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
 This module is maintained by the OCA.
 
@@ -100,6 +105,6 @@ Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
 |maintainer-hbrunn| 
 
-This module is part of the `OCA/server-backend <https://github.com/OCA/server-backend/tree/16.0/base_portal_type>`_ project on GitHub.
+This module is part of the `OCA/server-backend <https://github.com/OCA/server-backend/tree/18.0/base_portal_type>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

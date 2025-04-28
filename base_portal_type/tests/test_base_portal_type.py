@@ -16,5 +16,5 @@ class TestBasePortalGroup(TransactionCase):
         group_field_name = name_boolean_group(group.id)
         groups_view = etree.fromstring(self.env.ref("base.user_groups_view").arch)
         self.assertEqual(
-            len(groups_view.xpath("//field[@name='%s']" % group_field_name)), 3
+            len(groups_view.xpath(f"//field[@name='{group_field_name}']")), 3
         )

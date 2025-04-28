@@ -38,10 +38,10 @@ class ResGroups(models.Model):
             )
         )
         user_type_field = name_selection_groups(user_type_groups.ids)
-        for node in arch.xpath("//group/field[@name='%s']" % user_type_field):
+        for node in arch.xpath(f"//group/field[@name='{user_type_field}']"):
             for group in portal_groups:
                 field_name = name_boolean_group(group.id)
-                for field_node in arch.xpath("//field[@name='%s']" % field_name):
+                for field_node in arch.xpath(f"//field[@name='{field_name}']"):
                     field_node.attrib["attrs"] = str(
                         {
                             "readonly": [
