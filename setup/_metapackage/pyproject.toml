@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-server-backend"
-version = "17.0.20240827.0"
+version = "17.0.20250507.0"
 dependencies = [
     "odoo-addon-base_external_dbsource>=17.0dev,<17.1dev",
     "odoo-addon-base_external_dbsource_sqlite>=17.0dev,<17.1dev",
@@ -8,6 +8,7 @@ dependencies = [
     "odoo-addon-base_user_role>=17.0dev,<17.1dev",
     "odoo-addon-base_user_role_company>=17.0dev,<17.1dev",
     "odoo-addon-base_user_role_history>=17.0dev,<17.1dev",
+    "odoo-addon-server_action_navigate>=17.0dev,<17.1dev",
 ]
 classifiers=[
     "Programming Language :: Python",
