@@ -34,7 +34,6 @@ class Base(models.AbstractModel):
             # Mock Odoo to believe the user is importing the ID field
             if "id" not in fields:
                 fields.append("id")
-            # Needed to match with converted data field names
             for dbid, xmlid, record, info in converted_data:
                 # In case of one2many on empty lines one record may contain several rows
                 for row_index in range(info["rows"]["from"], info["rows"]["to"] + 1):
