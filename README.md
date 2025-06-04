@@ -24,10 +24,10 @@ addon | version | maintainers | summary
 [base_external_dbsource](base_external_dbsource/) | 14.0.1.0.2 |  | External Database Sources
 [base_global_discount](base_global_discount/) | 14.0.1.0.1 |  | Base Global Discount
 [base_import_match](base_import_match/) | 14.0.1.0.2 |  | Try to avoid duplicates before importing
-[base_user_role](base_user_role/) | 14.0.2.5.3 | [![sebalix](https://github.com/sebalix.png?size=30px)](https://github.com/sebalix) [![jcdrubay](https://github.com/jcdrubay.png?size=30px)](https://github.com/jcdrubay) [![novawish](https://github.com/novawish.png?size=30px)](https://github.com/novawish) | User roles
+[base_user_role](base_user_role/) | 14.0.2.5.3 | <a href='https://github.com/sebalix'><img src='https://github.com/sebalix.png' width='32' height='32' style='border-radius:50%;' alt='sebalix'/></a> <a href='https://github.com/jcdrubay'><img src='https://github.com/jcdrubay.png' width='32' height='32' style='border-radius:50%;' alt='jcdrubay'/></a> <a href='https://github.com/novawish'><img src='https://github.com/novawish.png' width='32' height='32' style='border-radius:50%;' alt='novawish'/></a> | User roles
 [base_user_role_company](base_user_role_company/) | 14.0.2.0.2 |  | User roles by company
 [base_user_role_profile](base_user_role_profile/) | 14.0.1.1.0 |  | User profiles
-[server_action_navigate](server_action_navigate/) | 14.0.1.0.2 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) [![ashishhirpara](https://github.com/ashishhirpara.png?size=30px)](https://github.com/ashishhirpara) | Navigate between any items of any Odoo Models
+[server_action_navigate](server_action_navigate/) | 14.0.1.0.2 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> <a href='https://github.com/ashishhirpara'><img src='https://github.com/ashishhirpara.png' width='32' height='32' style='border-radius:50%;' alt='ashishhirpara'/></a> | Navigate between any items of any Odoo Models
 
 [//]: # (end addons)
 
