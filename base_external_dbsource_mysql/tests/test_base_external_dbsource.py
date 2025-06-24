@@ -2,18 +2,27 @@
 
 from unittest import mock
 
-from odoo.tests import common
+from odoo.addons.base.tests.common import BaseCommon
 
 ADAPTER = (
     "odoo.addons.base_external_dbsource_mysql.models.base_external_dbsource.MySQLdb"
 )
 
 
-class TestBaseExternalDbsource(common.TransactionCase):
+class TestBaseExternalDbsource(BaseCommon):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
-        cls.dbsource = cls.env.ref("base_external_dbsource_mysql.demo_mysql")
+        cls.dbsource = cls.env["base.external.dbsource"].create(
+            {
+                "name": "MySQL Test",
+                "conn_string": (
+                    "Server=myServerAddress;Database=myDataBase;Uid=myUsername;"
+                ),
+                "password": "password",
+                "connector": "mysql",
+            }
+        )
 
     def test_connection_close_mysql(self):
         """It should close the connection"""
