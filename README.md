@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [base_external_dbsource](base_external_dbsource/) | 17.0.1.0.0 |  | External Database Sources
+[base_external_dbsource_mysql](base_external_dbsource_mysql/) | 17.0.1.0.0 |  | External Database Source - MySQL
 [base_external_dbsource_sqlite](base_external_dbsource_sqlite/) | 17.0.1.0.0 | <a href='https://github.com/anddago78'><img src='https://github.com/anddago78.png' width='32' height='32' style='border-radius:50%;' alt='anddago78'/></a> | External Database Source - SQLite
 [base_global_discount](base_global_discount/) | 17.0.1.0.0 |  | Base Global Discount
 [base_import_match](base_import_match/) | 17.0.1.0.0 |  | Try to avoid duplicates before importing
