@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_ical.view_icalendar_url_show_form
 msgid ""
 "<strong>Important:</strong>\n"
-"                        The url cannot be retrieved later and provides."
+"                        The url cannot be retrieved later and provides access to this calendar without further authentication."
 msgstr ""
 
 #. module: base_ical
@@ -26,8 +26,8 @@ msgid "Active"
 msgstr ""
 
 #. module: base_ical
+#. odoo-python
 #: code:addons/base_ical/models/base_ical.py:0
-#, python-format
 msgid "Advanced"
 msgstr ""
 
@@ -67,6 +67,12 @@ msgid "Code"
 msgstr ""
 
 #. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Converts HTML to plain text"
+msgstr ""
+
+#. module: base_ical
 #: model:ir.model.fields,field_description:base_ical.field_base_ical__create_uid
 #: model:ir.model.fields,field_description:base_ical.field_base_ical_url_description__create_uid
 msgid "Created by"
@@ -76,6 +82,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_ical.field_base_ical__create_date
 #: model:ir.model.fields,field_description:base_ical.field_base_ical_url_description__create_date
 msgid "Created on"
+msgstr ""
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Current user record"
 msgstr ""
 
 #. module: base_ical
@@ -96,6 +108,11 @@ msgstr ""
 #. module: base_ical
 #: model:ir.model,name:base_ical.model_base_ical
 msgid "Definition of an iCal export"
+msgstr ""
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_res_users_form
+msgid "Delete"
 msgstr ""
 
 #. module: base_ical
@@ -135,8 +152,19 @@ msgid "Existing Access"
 msgstr ""
 
 #. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Function to add the key-values of dict to ical component"
+msgstr ""
+
+#. module: base_ical
 #: model_terms:ir.ui.view,arch_db:base_ical.view_icalendar_url_description_form
 msgid "Generate url"
+msgstr ""
+
+#. module: base_ical
+#: model:ir.model.fields,field_description:base_ical.field_base_ical__auto_group_ids
+msgid "Groups"
 msgstr ""
 
 #. module: base_ical
@@ -170,14 +198,8 @@ msgstr ""
 #: model:ir.model.fields,help:base_ical.field_base_ical__auto
 msgid ""
 "If you check this, the calendar will be enabled for all current and future "
-"users. Not that unchecking this will not disable existing calendar "
+"users. Note that unchecking this will not disable existing calendar "
 "subscriptions"
-msgstr ""
-
-#. module: base_ical
-#: model:ir.model.fields,field_description:base_ical.field_base_ical____last_update
-#: model:ir.model.fields,field_description:base_ical.field_base_ical_url_description____last_update
-msgid "Last Modified on"
 msgstr ""
 
 #. module: base_ical
@@ -218,15 +240,46 @@ msgid "New URL"
 msgstr ""
 
 #. module: base_ical
+#. odoo-python
 #: code:addons/base_ical/models/base_ical_url_description.py:0
-#, python-format
 msgid "Only internal users can create API keys"
+msgstr ""
+
+#. module: base_ical
+#: model:ir.model.fields,help:base_ical.field_base_ical__auto_group_ids
+msgid ""
+"Only users of selected groups will be auto-allowed. Leave empty for all "
+"users"
+msgstr ""
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Output: Calendar e.g. from `_get_ics_file`"
+msgstr ""
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Output: Dictionary of an VEVENT"
+msgstr ""
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Output: Dictionary of an VTODO"
 msgstr ""
 
 #. module: base_ical
 #: model:ir.model.fields,field_description:base_ical.field_base_ical__preview
 #: model_terms:ir.ui.view,arch_db:base_ical.view_base_ical_form
 msgid "Preview"
+msgstr ""
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Record to export"
 msgstr ""
 
 #. module: base_ical
@@ -240,8 +293,8 @@ msgid "Show URL for iCalendar"
 msgstr ""
 
 #. module: base_ical
+#. odoo-python
 #: code:addons/base_ical/models/base_ical.py:0
-#, python-format
 msgid "Simple"
 msgstr ""
 
@@ -262,7 +315,7 @@ msgstr ""
 
 #. module: base_ical
 #: model:ir.model,name:base_ical.model_res_users
-msgid "Users"
+msgid "User"
 msgstr ""
 
 #. module: base_ical
@@ -288,4 +341,16 @@ msgstr ""
 #: model:ir.actions.act_window,name:base_ical.action_base_ical
 #: model:ir.ui.menu,name:base_ical.menu_ical
 msgid "iCalendars"
+msgstr ""
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "useful Python libraries"
+msgstr ""
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "vobject python library"
 msgstr ""
