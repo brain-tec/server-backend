@@ -10,9 +10,7 @@ class TestExternalSystemAdapter(Common):
     def setUp(self):
         super().setUp()
         self.system = self.env.ref("base_external_system.external_system_os")
-        self.record = self.env["external.system.adapter"].new(
-            {"system_id": self.system.id}
-        )
+        self.record = self.env["external.system.adapter"].new()
 
     def test_client_yields_client(self):
         """It should yield the client."""

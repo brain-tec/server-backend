@@ -1,6 +1,5 @@
 # Copyright 2017 LasLabs Inc.
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
-
 from contextlib import contextmanager
 from unittest.mock import MagicMock
 
@@ -13,8 +12,5 @@ class Common(TransactionCase):
         if method_obj is None:
             method_obj = self.record
         magic = MagicMock()
-        method_obj._patch_method(method_name, magic)
-        try:
-            yield magic
-        finally:
-            method_obj._revert_method(method_name)
+        self.patch(type(self.record), method_name, magic)
+        yield magic
