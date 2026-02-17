@@ -8,7 +8,6 @@ from odoo.exceptions import ValidationError
 
 
 class ExternalSystem(models.Model):
-
     _name = "external.system"
     _description = "External System"
 
@@ -109,7 +108,7 @@ class ExternalSystem(models.Model):
         """Create the interface for the record and assign to ``interface``."""
         records = self.browse([])
         for vals in vals_list:
-            record = super(ExternalSystem, self).create(vals)
+            record = super().create(vals)
             if not self.env.context.get("no_create_interface"):
                 interface = self.env[vals["system_type"]].create(
                     {"system_id": record.id}

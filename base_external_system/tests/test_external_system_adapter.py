@@ -8,7 +8,7 @@ from .common import Common
 
 class TestExternalSystemAdapter(Common):
     def setUp(self):
-        super(TestExternalSystemAdapter, self).setUp()
+        super().setUp()
         self.system = self.env.ref("base_external_system.external_system_os")
         self.record = self.env["external.system.adapter"].new(
             {"system_id": self.system.id}

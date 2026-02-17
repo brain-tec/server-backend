@@ -8,7 +8,7 @@ from .common import Common
 
 class TestExternalSystem(Common):
     def setUp(self):
-        super(TestExternalSystem, self).setUp()
+        super().setUp()
         self.record = self.env.ref("base_external_system.external_system_os")
 
     def test_get_system_types(self):

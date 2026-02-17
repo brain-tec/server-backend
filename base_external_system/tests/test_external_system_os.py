@@ -10,18 +10,18 @@ class TestExternalSystemOs(Common):
     @classmethod
     def setUpClass(cls):
         """Remember the working dir, just in case."""
-        super(TestExternalSystemOs, cls).setUpClass()
+        super().setUpClass()
         cls.working_dir = os.getcwd()
 
     @classmethod
     def tearDownClass(cls):
         """Set the working dir back to origin, just in case."""
-        result = super(TestExternalSystemOs, cls).tearDownClass()
+        result = super().tearDownClass()
         os.chdir(cls.working_dir)
         return result
 
     def setUp(self):
-        super(TestExternalSystemOs, self).setUp()
+        super().setUp()
         self.record = self.env.ref("base_external_system.external_system_os")
 
     def test_external_get_client_returns_os(self):

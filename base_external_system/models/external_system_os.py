@@ -21,7 +21,7 @@ class ExternalSystemOs(models.Model):
 
     def external_get_client(self):
         """Return a usable client representing the remote system."""
-        super(ExternalSystemOs, self).external_get_client()
+        super().external_get_client()
         if self.system_id.remote_path:
             ExternalSystemOs.previous_dir = os.getcwd()
             os.chdir(self.system_id.remote_path)
@@ -34,7 +34,7 @@ class ExternalSystemOs(models.Model):
             client (mixed): The client that was returned by
              ``external_get_client``.
         """
-        result = super(ExternalSystemOs, self).external_destroy_client(client)
+        result = super().external_destroy_client(client)
         if ExternalSystemOs.previous_dir:
             os.chdir(ExternalSystemOs.previous_dir)
             ExternalSystemOs.previous_dir = None
