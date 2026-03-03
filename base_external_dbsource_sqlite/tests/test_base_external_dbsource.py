@@ -2,7 +2,7 @@
 
 from unittest import mock
 
-from odoo.tests import common
+from odoo.addons.base.tests.common import BaseCommon
 
 ADAPTER = (
     "odoo.addons.base_external_dbsource_sqlite.models"
@@ -10,7 +10,7 @@ ADAPTER = (
 )
 
 
-class TestBaseExternalDbsource(common.TransactionCase):
+class TestBaseExternalDbsource(BaseCommon):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
