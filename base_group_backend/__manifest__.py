@@ -12,6 +12,7 @@
         "base",
         "mail",
         "calendar",
+        "web_editor",
     ],
     "maintainers": ["FranzPoize", "bealdav"],
     "demo": [
@@ -24,6 +25,7 @@
     "data": [
         "data/res_groups.xml",
         "security/ir.model.access.csv",
+        "views/editor.xml",
     ],
     "installable": True,
 }
