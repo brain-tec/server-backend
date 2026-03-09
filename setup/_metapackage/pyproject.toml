@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-server-backend"
-version = "18.0.20260305.0"
+version = "18.0.20260308.0"
 dependencies = [
     "odoo-addon-base_external_dbsource==18.0.*",
     "odoo-addon-base_external_dbsource_mssql==18.0.*",
@@ -13,6 +13,7 @@ dependencies = [
     "odoo-addon-base_user_role==18.0.*",
     "odoo-addon-base_user_role_company==18.0.*",
     "odoo-addon-base_user_role_history==18.0.*",
+    "odoo-addon-base_user_role_profile==18.0.*",
     "odoo-addon-server_action_navigate==18.0.*",
     "odoo-addon-server_action_sort==18.0.*",
 ]
