@@ -6,53 +6,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-23 15:34+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__company_id
 msgid "Company"
-msgstr ""
+msgstr "Compañía"
 
 #. module: base_global_discount
 #: model:ir.model,name:base_global_discount.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado o"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__discount
 msgid "Discount"
-msgstr ""
+msgstr "Desconto"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__name
 msgid "Discount Name"
-msgstr ""
+msgstr "Nome do desconto"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__discount_scope
 msgid "Discount Scope"
-msgstr ""
+msgstr "Ámbito do desconto"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nome mostrado"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_product_product__bypass_global_discount
@@ -63,24 +65,24 @@ msgstr ""
 #. module: base_global_discount
 #: model:ir.model.fields,help:base_global_discount.field_global_discount__sequence
 msgid "Gives the order to apply discounts"
-msgstr ""
+msgstr "Orde no que se aplicarán os descontos"
 
 #. module: base_global_discount
 #: model:ir.model,name:base_global_discount.model_global_discount
 msgid "Global Discount"
-msgstr ""
+msgstr "Desconto Global"
 
 #. module: base_global_discount
 #: model:ir.actions.act_window,name:base_global_discount.action_global_discount_tree
 #: model:ir.ui.menu,name:base_global_discount.menu_global_discount
 #: model_terms:ir.ui.view,arch_db:base_global_discount.global_discount_view_form
 msgid "Global Discounts"
-msgstr ""
+msgstr "Descontos Globais"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: base_global_discount
 #: model:ir.model.fields,help:base_global_discount.field_product_product__bypass_global_discount
@@ -93,22 +95,22 @@ msgstr ""
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última Modificación en"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Última Actualización por"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Última Actualización o"
 
 #. module: base_global_discount
 #: model:res.groups,name:base_global_discount.group_global_discount
 msgid "Manage Global Discounts"
-msgstr ""
+msgstr "Xestionar Descontos Globais"
 
 #. module: base_global_discount
 #: model:ir.model,name:base_global_discount.model_product_template
@@ -125,26 +127,26 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_global_discount.field_res_users__supplier_global_discount_ids
 #: model_terms:ir.ui.view,arch_db:base_global_discount.res_partner_form_view
 msgid "Purchase Global Discounts"
-msgstr ""
+msgstr "Descontos globais de compra"
 
 #. module: base_global_discount
 #: model:ir.model.fields.selection,name:base_global_discount.selection__global_discount__discount_scope__purchase
 msgid "Purchases"
-msgstr ""
+msgstr "Compras"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_res_partner__customer_global_discount_ids
 #: model:ir.model.fields,field_description:base_global_discount.field_res_users__customer_global_discount_ids
 #: model_terms:ir.ui.view,arch_db:base_global_discount.res_partner_form_view
 msgid "Sale Global Discounts"
-msgstr ""
+msgstr "Descontos de venda globais"
 
 #. module: base_global_discount
 #: model:ir.model.fields.selection,name:base_global_discount.selection__global_discount__discount_scope__sale
 msgid "Sales"
-msgstr ""
+msgstr "Vendas"
 
 #. module: base_global_discount
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Secuencia"
