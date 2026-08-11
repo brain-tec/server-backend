@@ -21,6 +21,7 @@
         <field name="model">res.users.profile</field>
         <field name="arch" type="xml">
             <list>
+                <field name="sequence" widget="handle" />
                 <field name="name" />
             </list>
         </field>
