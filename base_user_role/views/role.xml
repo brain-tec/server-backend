@@ -76,6 +76,7 @@
         <field name="model">res.users.role</field>
         <field name="arch" type="xml">
             <list>
+                <field name="sequence" widget="handle" />
                 <field name="name" />
                 <field name="user_ids" />
             </list>
